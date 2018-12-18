@@ -1,0 +1,21 @@
+{
+    "name": "one-dark",
+    "displayName": "One Dark+",
+    "description": "one-dark+",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "one-dark+",
+                "uiTheme": "vs-dark",
+                "path": "./themes/one-dark+-color-theme.json"
+            }
+        ]
+    }
+}
