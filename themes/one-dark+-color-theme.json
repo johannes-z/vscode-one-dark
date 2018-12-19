@@ -63,7 +63,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#e5c07b"
 			}
 		},
 		{
@@ -76,6 +76,7 @@
 		{
 			"name": "Variable and parameter name",
 			"scope": [
+				"meta.group.braces.round.function.arguments",
 				"variable",
 				"meta.definition.variable.name",
 				"support.variable",
@@ -177,6 +178,8 @@
 		},
 		{
 			"scope": [
+				"constant.language",
+				"constant.language.null",
 				"variable.other.constant",
 				"support.variable.property",
 				"support.variable.property.dom",
@@ -204,6 +207,8 @@
 		},
 		{
 			"scope": [
+				"entity.other.inherited-class",
+				"support.constant.json",
 				"support.type.property-name.css",
 				"variable.function.constructor"
 			],
