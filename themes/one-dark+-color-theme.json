@@ -166,7 +166,11 @@
 			}
 		},
 		{
-			"scope": "variable.function",
+			"scope": [
+				"meta.function-call",
+				"meta.function-call support.function.dom",
+				"variable.function"
+			],
 			"settings": {
 				"foreground": "#61afef"
 			}
