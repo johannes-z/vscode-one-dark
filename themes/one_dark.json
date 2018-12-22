@@ -1,0 +1,54 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "One Dark+",
+	"include": "./dark_plus.json",
+	"tokenColors": [
+		{
+			"scope": [
+				"support.type.property-name.json",
+				"variable.language.this",
+				"variable.other.object",
+			],
+			"settings": {
+				"foreground": "#e06c75",
+			}
+		},
+		{
+			"scope": [
+				"constant.language",
+				"meta.property.object",
+				"variable.other.property",
+				"variable.other.constant"
+			],
+			"settings": {
+				"foreground": "#d19a66",
+			},
+		},
+		{
+			"scope": [
+				"keyword.operator.module"
+			],
+			"settings": {
+				"foreground": "#c678dd",
+			}
+		},
+		{
+			"scope": [
+				"variable.function"
+			],
+			"settings": {
+				"foreground": "#61afef",
+			}
+		},
+		{
+			"scope": [
+				"constant.other.color.rgb-value",
+				"string.unquoted.label",
+				"constant.other.object.key"
+			],
+			"settings": {
+				"foreground": "#56b6c2",
+			}
+		}
+	]
+}

@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "One Dark+",
+	"name": "Dark+ (default dark)",
 	"include": "./dark_vs.json",
 	"tokenColors": [
 		{
@@ -76,14 +76,13 @@
 		{
 			"name": "Variable and parameter name",
 			"scope": [
-				"meta.group.braces.round.function.arguments",
 				"variable",
 				"meta.definition.variable.name",
 				"support.variable",
 				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#abb2bf"
+				"foreground": "#ABB2BF"
 			}
 		},
 		{
@@ -92,7 +91,7 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#abb2bf"
+				"foreground": "#9CDCFE"
 			}
 		},
 		{
@@ -133,7 +132,7 @@
 				"constant.character.set.regexp"
 			],
 			"settings": {
-				"foreground": "#d16969"
+				"foreground": "#98c379"
 			}
 		},
 		{
@@ -142,7 +141,7 @@
 				"keyword.control.anchor.regexp"
 			],
 			"settings": {
-				"foreground": "#d16969"
+				"foreground": "#DCDCAA"
 			}
 		},
 		{
@@ -152,10 +151,7 @@
 			}
 		},
 		{
-			"scope": [
-				"keyword.operator.module",
-				"constant.character"
-			],
+			"scope": "constant.character",
 			"settings": {
 				"foreground": "#c678dd"
 			}
@@ -164,68 +160,6 @@
 			"scope": "constant.character.escape",
 			"settings": {
 				"foreground": "#d7ba7d"
-			}
-		},
-		{
-			"scope": [
-				"meta.function-call",
-				"meta.function-call support.function.dom",
-				"variable.function"
-			],
-			"settings": {
-				"foreground": "#61afef"
-			}
-		},
-		{
-			"scope": [
-				"constant.language",
-				"constant.language.null",
-				"variable.other.constant",
-				"support.variable.property",
-				"support.variable.property.dom",
-				"variable.other.object.property",
-				"meta.property.object",
-				"variable.other.property",
-				"constant.language.boolean"
-			],
-			"settings": {
-				"foreground": "#d19a66"
-			}
-		},
-		{
-			"scope": [
-				"meta.object-literal.key",
-				"constant.character.escape",
-				"keyword.other.substitution",
-				"keyword.operator",
-				"string.unquoted.label",
-				"support.function"
-			],
-			"settings": {
-				"foreground": "#56b6c2"
-			}
-		},
-		{
-			"scope": [
-				"entity.other.inherited-class",
-				"support.constant.json",
-				"support.type.property-name.css",
-				"variable.function.constructor"
-			],
-			"settings": {
-				"foreground": "#e5c07b"
-			}
-		},
-		{
-			"scope": [
-				"variable.other.object.property",
-				"variable.language.this",
-				"support.type.property-name",
-				"variable.other.class",
-				"variable.other.object"
-			],
-			"settings": {
-				"foreground": "#e06c75"
 			}
 		}
 	]
