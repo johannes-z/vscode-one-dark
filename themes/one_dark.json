@@ -60,12 +60,20 @@
 		},
 		{
 			"scope": [
+				"string.other.link.title",
 				"entity.name.function",
 				"support.function",
 				"variable.function"
 			],
 			"settings": {
 				"foreground": "#61afef",
+			}
+		},
+		{
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#d19a66",
+				"fontStyle": "italic"
 			}
 		},
 		{

@@ -113,7 +113,7 @@
 			"scope": "markup.heading",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#c678dd"
+				"foreground": "#e06c75"
 			}
 		},
 		{
@@ -162,7 +162,7 @@
 			"name": "brackets of XML/HTML tags",
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#808080"
+				"foreground": "#ABB2BF"
 			}
 		},
 		{
