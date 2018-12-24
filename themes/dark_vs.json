@@ -33,7 +33,8 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#5c6370",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -143,7 +144,7 @@
 		{
 			"scope": "punctuation.definition.quote.begin.markdown",
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#ABB2BF"
 			}
 		},
 		{
