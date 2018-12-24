@@ -51,6 +51,14 @@
 		},
 		{
 			"scope": [
+				"meta.brace.square"
+			],
+			"settings": {
+				"foreground": "#ABB2BF",
+			}
+		},
+		{
+			"scope": [
 				"variable.function"
 			],
 			"settings": {
