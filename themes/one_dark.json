@@ -34,6 +34,15 @@
 		},
 		{
 			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#5c6370",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
 				"variable.function"
 			],
 			"settings": {
