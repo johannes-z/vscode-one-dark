@@ -43,7 +43,8 @@
 		},
 		{
 			"scope": [
-				"variable.other.class"
+				"variable.other.class",
+				"variable.function.constructor"
 			],
 			"settings": {
 				"foreground": "#e5c07b",
